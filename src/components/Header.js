@@ -60,7 +60,7 @@ export default function ButtonAppBar() {
             </Link>
             <IconButton
               color="secondary"
-              onCLick={e => setAnchorUserMenu(e.currentTarget)}
+              onClick={e => setAnchorUserMenu(e.currentTarget)}
             >
               {true === false ? <Avatar src="" /> : <AccountCircle />}
               <Typography
