@@ -11,11 +11,13 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
+    "formik": "^2.2.9",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-dropzone": "^11.3.4",
-    "react-material-ui-carousel": "^2.3.1"
+    "react-material-ui-carousel": "^2.3.1",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "eslint": "7.32.0",

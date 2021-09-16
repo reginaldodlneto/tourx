@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
   box: {
     backgroundColor: theme.palette.background.white,
     padding: theme.spacing(3),
-    marginBottom: theme.spacing(3)
+    marginTop: theme.spacing(3)
   }
 }))
 
