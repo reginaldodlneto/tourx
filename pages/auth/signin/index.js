@@ -30,10 +30,11 @@ const Signin = () => {
 
   console.log(session)
 
-  const handleGoogleLogin = () =>
+  const handleGoogleLogin = () => {
     signIn('google', {
       callbackUrl: 'http://localhost:3000/user/dashboard'
     })
+  }
 
   const handleFormSubmit = async values => {
     signIn('credentials', {
