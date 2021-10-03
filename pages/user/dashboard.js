@@ -11,7 +11,7 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-export default function Home() {
+const Home = () => {
   const classes = useStyles()
 
   return (
@@ -103,3 +103,7 @@ export default function Home() {
     </TemplateDefault>
   )
 }
+
+Home.requireAuth = true
+
+export default Home
